@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WhatYourName"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "this is my app"
 
 
@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/bestjiangbeatyou/WhatYourName.git", :tag => "#{s.version}" }
 
-
-  s.source_files  = "WhatYourName"
+s.platform     = :ios, "8.0"
+s.source_files  = "ViewController.h"
 
 
 end
