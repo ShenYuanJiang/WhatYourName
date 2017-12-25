@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/bestjiangbeatyou/WhatYourName.git", :tag => "#{s.version}" }
 
 
-  s.source_files  = "WhatYourName/*. {h,m}"
+  s.source_files  = "WhatYourName"
 
 
 end
